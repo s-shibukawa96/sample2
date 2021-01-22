@@ -1,0 +1,212 @@
+body {
+    margin: 0px;
+    background-color: #f5f5dd;
+    min-width: 960px;
+}
+
+.large_block {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: solid 1px #cccccc;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+form {
+    float: right;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 15px;
+    margin-top: 0px;
+    color: #664433;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+}
+
+header li {
+    border-left: solid 1px #cccccc;
+    width: 191px;
+    text-align: center;
+    float: left;
+    list-style: none;
+}
+
+header li:first-child {
+    border-left: none;
+}
+
+header a {
+    color: #664433;
+    display: block;
+}
+
+h2 {
+    font-size: 15px;
+    background-color: #99bb22;
+    color: #ffffff;
+    border-radius: 20px;
+    margin-top: 0;
+    background-image: url(dish.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding: 5px 5px 5px 35px;
+}
+
+h3 {
+    color: #664433;
+    text-align: left;
+    margin: 0 10px 10px;
+}
+
+.mainview {
+    width: 960px;
+    margin: 0 auto;
+    display: block;
+}
+
+main {
+    display: flex;
+}
+
+nav {
+    flex: 1;
+    margin-top: 10px;
+}
+
+main section {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+nav li {
+    border-bottom: dashed 1px #000000;
+    padding: 5px;
+
+
+}
+
+nav li:last-child {
+    border: none;
+}
+
+nav a {
+    display: block;
+    background-image: url(arrow.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding: 5px 5px 5px 35px;
+}
+
+article {
+    flex: 3;
+    margin: 10px;
+}
+
+img.topics.jpg {
+    float: left;
+}
+
+.japanesefood p {
+    width: 300px;
+    float: right;
+    /*margin: 0 0 8px;*/
+}
+
+.japanesefood p:first-of-type {
+    text-indent: 1em;
+}
+
+.recipe-img {
+    float: left;
+    clear: both;
+}
+
+.RecipeOen,
+.RecipeTwo {
+    width: 300px;
+    float: right;
+    margin: 0 0 8px;
+}
+
+.recipe p:first-of-type {
+    text-indent: 1em;
+}
+
+main p.more {
+    text-align: right;
+    color: #fc8833;
+}
+
+aside {
+    flex: 0.8;
+    margin-top: 10px;
+}
+
+aside a {
+    margin-bottom: 20px;
+    display: block;
+}
+
+footer {
+    border-top: solid 1px #cccccc;
+    background: #ffffff;
+    padding-bottom: 10px;
+}
+
+footer li {
+    border-left: solid 1px #cccccc;
+    text-align: center;
+    background: #ffffff;
+    font-size: 14px;
+    padding: 0 14px;
+}
+
+footer li:first-child {
+    border-left: none;
+}
+
+.newrecipe {
+    display: flex;
+}
+
+.newrecipe li {
+    flex: 1;
+    text-align: center;
+    font-size: 8px;
+}
+
+footer ul {
+    clear: left;
+    text-align: center;
+    background-color: #ffffff;
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 14px;
+}
+
+.copywriter {
+    color: #c0c0c0;
+    clear: both;
+    text-align: center;
+}
+
+.copywriter p {
+    margin: 0;
+    margin-top: 10px;
+}
